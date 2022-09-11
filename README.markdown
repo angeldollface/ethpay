@@ -32,7 +32,7 @@ Once the transaction is completed, an alert with the URL to the transcation on E
 
 ### Concrete example
 
-An example of someone sending 0.1 ETH to someone else might look something like this. The visitor of the page submits their private key and their public address to the respective input field and presses the `PAY` button. By doing so, they are sending 0.1 ETH to the recipient. Submitting your private key is essential to actually verify it is you triggering the transaction.
+An example of someone sending 0.1 ETH to someone else might look something like this. The visitor of the page submits their private key and their public address to the respective input field and presses the `PAY` button. By doing so, they are sending 0.1 ETH to the recipient. Submitting your private key is essential to actually verify it is you triggering the transaction and to sign it with your keys.
 
 ```HTML
 <!DOCTYPE html>
