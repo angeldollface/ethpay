@@ -1,6 +1,6 @@
 # ETH PAY :lock: :fire: :money_mouth_face:
 
-***A simple API for small users of the Ethereum payment network to embed payments on their site.*** :lock: :fire: :money_mouth_face:
+***A simple API for small users of the Ethereum payment network to embed payments on their site. :lock: :fire: :money_mouth_face:***
 
 ## ABOUT
 
