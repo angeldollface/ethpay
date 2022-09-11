@@ -4,7 +4,7 @@
 
 ## ABOUT
 
-***ETH Pay*** is a simple API for people who would like to receive Ethereum tokens into their wallets and embed this functionality into their wallets. I really tried to keep this as simple as possible. Enjoy. :heart:
+***ETH Pay*** is a simple API for people who would like to receive Ethereum tokens into their wallets and embed this functionality into their websites. I really tried to keep this as simple as possible. Enjoy. :heart:
 
 ## USAGE
 
@@ -32,10 +32,10 @@ Once the transaction is completed, an alert with the URL to the transcation on E
 
 ### Concrete example
 
-An example of someone sending 0.1 ETH to someone else might look something like this. The visitor of the page submits their private key and their public address to the respective input field and presses the `PAY` button. By doing so, they are sending 0.1 ETH to the recipient.
+An example of someone sending 0.1 ETH to someone else might look something like this. The visitor of the page submits their private key and their public address to the respective input field and presses the `PAY` button. By doing so, they are sending 0.1 ETH to the recipient. Submitting your private key is essential to actually verify it is you triggering the transaction.
 
 ```HTML
-<!doctype html>
+<!DOCTYPE html>
 <html>
  <head>ETHPAY</head>
  <body>
@@ -78,7 +78,7 @@ An example of someone sending 0.1 ETH to someone else might look something like 
         var amount = '0.1';
 
         // The network on which this transaction is being made.
-        var network = 'main'; // When testing replace this with 'ropsten'.
+        var network = 'main'; // When testing, replace this with 'ropsten'.
 
         // Submitting the transaction to the network.
         payETH(
